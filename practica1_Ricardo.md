@@ -82,6 +82,32 @@ git branch -D nombre_rama
 `git merge --abort`
 
 
+## COMANDOS RAMAS III
+
+*almacenar cambios temporales:*
+
+`git stash save "Mensaje"`
+
+*listar cambios:*
+
+`git stash list`
+
+*ver contenido de un cambio temporal:*
+
+`git stash show -p nombre_stash`
+
+*eliminar un cambio temporar:*
+
+`git stash drop nombre_stash`
+
+*aplicar cambio del stash:*
+
+~~~
+git stash apply nombre_stash
+git stash pop nombre_stash
+~~~
+
+
 
 
 
