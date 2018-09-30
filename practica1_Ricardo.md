@@ -56,6 +56,32 @@ git ls-tree master~3
 
 `git diff nombre_rama..nombre_rama`
 
+## COMANDOS RAMAS II
+
+*ver ramas identicas a la actual:*
+
+`git branch --merged`
+
+*renombrar ramas:*
+
+`git branch -m nombre_antiguo nombre_nuevo`
+
+*eliminar ramas:*
+
+~~~
+git branch -d nombre_rama
+git branch -D nombre_rama
+~~~
+
+*integrar ramas a la actual:*
+
+`git merge nombre_rama`
+
+*resolver conflictos:*
+
+`git merge --abort`
+
+
 
 
 
