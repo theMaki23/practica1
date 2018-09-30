@@ -30,4 +30,8 @@ git ls-tree master~3
 
 `git diff id..id nombre_archivo`
 
+## RAMAS O BRANCHES
+
+**Es la forma para separar la linea actual de desarrollo con respecto a la principal. Normalmente representan versiones de software que posteriormente son integradas a la linea principal.**
+
 
