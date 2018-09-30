@@ -1,4 +1,4 @@
-# Comandos básicos I
+## Comandos básicos I
 
 Iniciar repositorio en un directorio:
 
@@ -20,7 +20,7 @@ Historial de commits:
 
 `git log`
 
-#Comandos básicos II
+## Comandos básicos II
 
 Ayuda del listado anterior:
 
@@ -42,7 +42,7 @@ Ver cambios en el directorio:
 
 `git status`
 
-#Comandos básicos III
+## Comandos básicos III
 
 Ver diferencia entre ficheros en el directorio y el repositorio de git:
 
@@ -67,7 +67,7 @@ git mv antiguo nuevo
 git commit -m " Mensaje "
 ~~~
 
-#Comandos básicos IV
+## Comandos básicos IV
 
 Deshacer cambios con git:
 
@@ -89,7 +89,7 @@ Revertir un commit:
 
 `git revert < id_commit >`
 
-#Comandos básicos V
+## Comandos básicos V
 
 Deshacer multiples cambios en el repositorio:
 
