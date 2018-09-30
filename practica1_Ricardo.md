@@ -1,4 +1,4 @@
-##COMANDOS BASICOS VI
+## COMANDOS BASICOS VI
 
 *Listar el contenido del repositorio de git:*
 
@@ -16,7 +16,7 @@ git ls-tree master~3
 
 `git log --oneline -3`
 
-##COMANDOS BASICOS VII
+## COMANDOS BASICOS VII
 
 *Examinar el contenido de un commit:*
 
@@ -30,11 +30,11 @@ git ls-tree master~3
 
 `git diff id..id nombre_archivo`
 
-##RAMAS O BRANCHES
+## RAMAS O BRANCHES
 
 **Es la forma para separar la linea actual de desarrollo con respecto a la principal. Normalmente representan versiones de software que posteriormente son integradas a la linea principal.**
 
-##COMANDOS RAMAS I
+## COMANDOS RAMAS I
 
 *ver listado de ramas:*
 
@@ -56,7 +56,7 @@ git ls-tree master~3
 
 `git diff nombre_rama..nombre_rama`
 
-##COMANDOS RAMAS II
+## COMANDOS RAMAS II
 
 *ver ramas identicas a la actual:*
 
@@ -81,7 +81,7 @@ git branch -D nombre_rama
 
 `git merge --abort`
 
-##COMANDOS RAMAS III
+## COMANDOS RAMAS III
 
 *almacenar cambios temporales:*
 
