@@ -16,3 +16,18 @@ git ls-tree master~3
 
 `git log --oneline -3`
 
+## COMANDOS BASICOS VII
+
+*Examinar el contenido de un commit:*
+
+`git show <id>`
+
+*comparar un commit con el actual:*
+
+`git diff <id> nombre_archivo`
+
+*comparar dos commits:*
+
+`git diff id..id nombre_archivo`
+
+
